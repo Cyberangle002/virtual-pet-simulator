@@ -1,4 +1,4 @@
-#Virtual Pet Simulator
+# Virtual Pet Simulator
 This is a mini-project that features an interactive Tamagotchi game developed using HTML, CSS, and JavaScript. The game provides a dynamic and responsive user interface with engaging animations and sound effects to enhance the overall user experience.
 
 ## Website
