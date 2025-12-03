@@ -1,106 +1,51 @@
-# Virtual Pet Simulator
+# Tamagotchi Game
+This is a mini-project that features an interactive Tamagotchi game developed using HTML, CSS, and JavaScript. The game provides a dynamic and responsive user interface with engaging animations and sound effects to enhance the overall user experience.
 
-A fun and interactive **Virtual Pet Simulator** built using **HTML, CSS, and JavaScript**.  
-Take care of your little digital pet by feeding, playing, and putting it to sleep while monitoring its hunger, happiness, and energy levels.  
+## Website
+https://tamagotchi-game.vercel.app/
 
----
+## Features
+Interactive Gameplay: The game allows users to interact with their virtual pet(monster), providing a unique Tamagotchi experience. Users can feed, play with, and take care of their virtual pet.
 
-## 🐾 Features
+User Interface: The user interface is designed using HTML and CSS to create an intuitive and visually appealing environment. The layout is responsive, ensuring an optimal experience across different devices and screen sizes.
 
-- **Multiple Pet Actions**:  
-  - Feed 🍎 → increases hunger  
-  - Play 🎾 → increases happiness, decreases energy  
-  - Sleep 🛌 → toggles awake/sleep state  
+JavaScript Interactivity: JavaScript is utilized to handle user inputs and game events. It enables users to perform actions such as feeding, playing with, and monitoring the health of their virtual pet.
 
-- **Real-time Attribute Display**:  
-  - Hunger, Happiness, Energy bars update dynamically  
-  - Color-coded progress bars: green → healthy, orange → medium, red → critical  
+Animations: The game incorporates various animations to make the virtual pet come to life. These animations bring movement and personality to the pet, enhancing the overall visual experience.
 
-- **Animations & Effects**:  
-  - Pet mood changes according to its state (happy, sad, sleeping)  
-  - Blinking eye animation for realism  
-  - Smooth progress bar and button animations  
+Sound Effects: Sound effects are used to create an immersive atmosphere within the game. Users can enjoy the interaction with their virtual pet through audio cues and feedback.
 
-- **Sound Effects**:  
-  - Pet birth and game over sounds  
+## How to Play
+Starting the Game: Open the game in a web browser that supports HTML, CSS, and JavaScript.
 
-- **Responsive Design**:  
-  - Fully mobile-friendly  
-  - Buttons, bars, and images adapt to smaller screens  
+Adopting a Pet: At the beginning of the game, you will name your monster pet.
 
-- **Age Tracking**:  
-  - Pet age increases over time  
+Taking Care of Your Pet: Once you have named your pet, you will be responsible for its well-being. Keep an eye on its sleepiness, hunger, and happiness levels.
 
-- **Game Over Handling**:  
-  - If hunger, energy, or happiness reaches 0 → pet dies  
-  - Game over alert and sound  
+Feeding Your Pet: Click on the food icon to feed your pet when it's hungry. Make sure to provide a balanced diet to keep your pet healthy.
 
----
+Playing with Your Pet: Click on the play icon to engage in activities with your pet. Playing helps keep your pet happy and entertained.
 
-## 🎨 Folder Structure
+Monitoring Sleepiness: Click on the light icon to turn off the lights. This will help your pet sleep.
 
-virtual-pet-simulator/
-│
-├── index.html # Main HTML file
-├── css/
-│ └── styles.css # CSS styles
-├── js/
-│ └── app.js # JavaScript logic
-├── pic/ # Pet images & icons
-│ ├── Tamagotchi_blue.webp
-│ ├── eat.png
-│ ├── play.png
-│ ├── sleep.png
-│ ├── cry.png
-│ ├── opps.png
-│ ├── bornsound.wav
-│ └── gameovermusic.wav
-└── README.md # This file
+Winning the Game: The goal is to keep your monster pet happy, and alive for as long as possible. Your pet's survival and well-being depend on the care and attention you provide.
 
+## Technologies Used
+HTML
+CSS
+JavaScript
 
-## ⚙️ How to Run
+## Frameworks
+![Screenshot 2023-05-25 at 8 17 00 PM](https://github.com/tugcecerit/Tamagotchi-Game/assets/119981069/34a36cf8-f979-4640-bf1f-f36603150880)
+![Screenshot 2023-05-25 at 8 17 15 PM](https://github.com/tugcecerit/Tamagotchi-Game/assets/119981069/63d0b35c-4db1-4fa9-8e57-6939898f06b7)
+![Screenshot 2023-05-25 at 8 17 40 PM](https://github.com/tugcecerit/Tamagotchi-Game/assets/119981069/1d7a9599-ce64-4893-946f-019c806443cb)
+![Screenshot 2023-05-25 at 8 18 16 PM](https://github.com/tugcecerit/Tamagotchi-Game/assets/119981069/2415206d-535a-4343-b265-f07c03c89954)
+![Screenshot 2023-05-25 at 8 20 02 PM](https://github.com/tugcecerit/Tamagotchi-Game/assets/119981069/fa4de553-d8a1-4a42-b188-7d1bdb8fe96b)
+![Screenshot 2023-05-25 at 8 23 02 PM](https://github.com/tugcecerit/Tamagotchi-Game/assets/119981069/2ad7da71-905f-4ef0-82cc-cfb857435393)
+![Screenshot 2023-05-25 at 8 24 13 PM](https://github.com/tugcecerit/Tamagotchi-Game/assets/119981069/dbebaec0-b6b9-48b1-98a3-8b0553afcdbc)
+![Screenshot 2023-05-25 at 8 24 59 PM](https://github.com/tugcecerit/Tamagotchi-Game/assets/119981069/8b6382e1-0dc8-4ccf-89a2-86606192823a)
 
-1. Clone or download the repository:  
+## Credits
+This Tamagotchi game was developed as a mini-project and is inspired by the classic Tamagotchi toys. The project was created by Tugce Cerit as a demonstration of HTML, CSS, and JavaScript skills.
 
-```bash
-git clone https://github.com/Cyberangle002/virtual-pet-simulator.git
-Open index.html in a web browser (Chrome, Firefox, Edge).
-
-Click START to begin and interact with your virtual pet.
-
-💡 How to Play
-Click START and name your pet.
-
-Monitor Hunger, Happiness, and Energy bars.
-
-Use buttons to feed, play, and put the pet to sleep.
-
-Keep your pet alive by maintaining its attributes.
-
-If any attribute reaches 0 → pet dies.
-
-🎵 Sounds
-bornsound.wav → plays when pet is born
-
-gameovermusic.wav → plays when pet dies
-
-📱 Mobile Friendly
-Buttons and bars are optimized for touch screens
-
-Pet image scales for smaller devices
-
-🛠️ Technologies Used
-HTML5
-
-CSS3 (animations, responsive design)
-
-JavaScript (ES6+)
-
-Audio API for sound effects
-
-👩‍💻 Author
-Aditi Shyam Pandit
-
-Email: aditipandit1331@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/aditipandit002/
+Feel free to explore the code and make any improvements or modifications to personalize your Tamagotchi game further.
